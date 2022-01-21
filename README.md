@@ -1,4 +1,4 @@
-# sweikenb/console-framework
+# sweikenb/console-framework-standard
 
 Template project for creating console base applications including `.phar` builds.
 
