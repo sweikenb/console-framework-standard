@@ -1,0 +1,6 @@
+commands:
+
+#  "App\\Command\\SomeCommand":
+#    - "@some.service"
+#    - "%settings.some.param%"
+#    - "some static value"

@@ -1,0 +1,10 @@
+services:
+
+#  some.service:
+#    class: "App\\Api\\SomeFeatureContractInterface"
+#    arguments:
+#      - "@another.service"
+#      - "%settings.additional.param%"
+#      - "a static value"
+#    calls:
+#      - { method: "setDependency", arguments: [ "@some.dependency" ] }

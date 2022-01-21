@@ -1,0 +1,4 @@
+events:
+
+#  my.custom.event.name:
+#    - [ listener: "@my.listener.service", method: "handleEvent", priority: 0 ]

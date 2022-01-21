@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+use App\SettingsResolver;
+use Sweikenb\ConsoleFramework\ConsoleKernel;
+
+require __DIR__ . "/../vendor/autoload.php";
+
+// get application settings
+$settingsFile = SettingsResolver::getFilepath(__DIR__ . '/..');
+
+// run application
+$app = new ConsoleKernel('my-application', '1.0.0', __DIR__ . '/../app', $settingsFile);
+$app->handle();

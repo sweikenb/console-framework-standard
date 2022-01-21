@@ -1,0 +1,4 @@
+contracts:
+
+#  "App\\Api\\SomeFeatureContractInterface":
+#    class: "App\\Service\\SomeService"
