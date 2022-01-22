@@ -1,8 +1,9 @@
 #
 # Put your default application settings here
 #
-some:
-  param: 'foo'
 
-additional:
-  param: 'bar'
+#some:
+#  param: 'foo'
+#
+#additional:
+#  param: 'bar'

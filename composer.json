@@ -3,20 +3,9 @@
     "description": "Sample console application build with sweikenb/console-framework.",
     "type": "project",
     "minimum-stability": "stable",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../console-framework"
-        }
-    ],
     "require": {
         "php": "^8.1",
-        "pimple/pimple": "~3.0",
-        "symfony/console": "^6.0",
-        "symfony/event-dispatcher": "^6.0",
-        "symfony/finder": "^6.0",
-        "symfony/yaml": "^6.0",
-        "sweikenb/console-framework": "dev-main"
+        "sweikenb/console-framework": "^0.0"
     },
     "autoload": {
         "psr-4": {
