@@ -4,6 +4,14 @@ Template project for creating console base applications including `.phar` builds
 
 License: **MIT**
 
+# Using this template for project creation
+
+Create your new project by using the template repository:
+
+```bash
+composer create-project sweikenb/console-framework-standard ./my-project-dir
+```
+
 # Getting Started
 
 Please have a look at the
