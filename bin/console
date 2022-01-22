@@ -7,7 +7,7 @@ use Sweikenb\ConsoleFramework\ConsoleKernel;
 require __DIR__ . "/../vendor/autoload.php";
 
 // get application settings
-$settingsFile = SettingsResolver::getFilepath(__DIR__ . '/..');
+$settingsFile = (new SettingsResolver())->getFilepath(__DIR__ . '/..');
 
 // run application
 $app = new ConsoleKernel('my-application', '1.0.0', __DIR__ . '/../app', $settingsFile);
