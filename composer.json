@@ -2,6 +2,7 @@
     "name": "sweikenb/console-framework-standard",
     "description": "Sample console application build with sweikenb/console-framework.",
     "type": "project",
+    "license": "MIT",
     "minimum-stability": "stable",
     "require": {
         "php": "^8.1",
