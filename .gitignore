@@ -2,3 +2,4 @@
 build
 vendor
 settings.yaml
+composer.json.dev
