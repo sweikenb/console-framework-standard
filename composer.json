@@ -6,7 +6,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.1",
-        "sweikenb/console-framework": "^0.1"
+        "sweikenb/console-framework": "^0.2"
     },
     "autoload": {
         "psr-4": {
