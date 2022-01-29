@@ -12,6 +12,14 @@ Create your new project by using the template repository:
 composer create-project sweikenb/console-framework-standard ./my-project-dir
 ```
 
+If you want to use the process manager functionality for process forking, please also install the pcntl library when you
+are in your new projects root-directory:
+
+```bash
+cd ./my-project-dir
+composer require sweikenb/pcntl
+```
+
 # Getting started
 
 Please have a look at the
